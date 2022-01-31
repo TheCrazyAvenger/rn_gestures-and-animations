@@ -1,12 +1,13 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
-import Transitions from './screens/Transitions';
+import PanGesture from './screens/PanGesture';
+import Timing from './screens/Timing';
 
 export const App: React.FC = () => {
   return (
     <GestureHandlerRootView style={styles.container}>
-      <Transitions />
+      <Timing />
     </GestureHandlerRootView>
   );
 };
