@@ -10,10 +10,14 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "abs-svg-path": "^0.1.1",
+    "normalize-svg-path": "^1.1.0",
+    "parse-svg-path": "^0.1.2",
     "react": "17.0.2",
     "react-native": "0.66.4",
     "react-native-gesture-handler": "^2.2.0",
-    "react-native-reanimated": "^2.3.1"
+    "react-native-reanimated": "^2.3.1",
+    "react-native-svg": "^12.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
