@@ -1,12 +1,12 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
-import CircularSlider from './screens/CircularSlider';
+import Graph from './screens/Graph';
 
 export const App: React.FC = () => {
   return (
     <GestureHandlerRootView style={styles.container}>
-      <CircularSlider />
+      <Graph />
     </GestureHandlerRootView>
   );
 };
